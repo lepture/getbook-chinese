@@ -23,7 +23,11 @@ setup(
     packages=['getbook_chinese'],
     entry_points={
         'getbook.parsers': [
-            'dajia = getbook_chinese.dajia:DajiaParser'
+            'dajia = getbook_chinese.dajia:DajiaParser',
+            'kanunu = getbook_chinese.kanunu:KanunuParser',
+            'piaotian = getbook_chinese.piaotian:PiaotianParser',
+            'qbxs5 = getbook_chinese.qbxs5:Qbxs5Parser',
+            'marxists = getbook_chinese.marxists.MarxistsParser',
         ],
     },
     description='Extra parsers of Chinese websites for getbook.',
