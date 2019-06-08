@@ -15,3 +15,14 @@ Installation
 Install with pip::
 
     $ pip install getbook-chinese
+
+Usage
+-----
+
+Create EPUB book::
+
+    $ getbook -u https://www.kanunu8.com/wuxia/201102/1606.html
+
+Create MOBI book::
+
+    $ getbook --mobi -u https://www.kanunu8.com/wuxia/201102/1606.html
