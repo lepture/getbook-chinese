@@ -27,6 +27,7 @@ setup(
             'kanunu = getbook_chinese.kanunu:KanunuParser',
             'piaotian = getbook_chinese.piaotian:PiaotianParser',
             'qbxs5 = getbook_chinese.qbxs5:Qbxs5Parser',
+            'wudiun = getbook_chinese.wudiun:WudiunParser',
             'marxists = getbook_chinese.marxists:MarxistsParser',
             'zhaishuyuan = getbook_chinese.zhaishuyuan:ZhaishuyuanParser',
         ],
